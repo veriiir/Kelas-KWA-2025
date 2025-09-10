@@ -71,7 +71,7 @@ SELECT * FROM users WHERE email = '[input_email]' AND password = '[input_passwor
 Kueri yang Dieksploitasi:
 
 ```bash
-SELECT * FROM users WHERE email = 'jim@juice-sh.op'--' AND password = 'veri'
+SELECT * FROM users WHERE email = 'jim@juice-sh.op'--' AND password = 'rahman'
 ```
 
 Setelah email **jim@juice-sh.op**, ditambahkan comment setelah email yang mengabaikan password sehingga bisa login sebagai user Jim meskipun passwordnya salah.
