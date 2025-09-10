@@ -25,7 +25,7 @@ Describe: Memanfaatkan data schema yang telah terekspos untuk menambahkan produk
 
     Payload:
     ```bash
-    aaaa')) UNION SELECT * FROM Products--
+    aaaa'))+UNION SELECT+*+FROM+Products--
     ```
     <img width="1919" height="1017" alt="Cuplikan layar 2025-09-10 155946" src="https://github.com/user-attachments/assets/393fd429-3ed1-4dbb-83ce-1e5a0afabd46" />
 
@@ -45,13 +45,14 @@ Describe: Memanfaatkan data schema yang telah terekspos untuk menambahkan produk
    <img width="1919" height="1018" alt="Cuplikan layar 2025-09-10 162016" src="https://github.com/user-attachments/assets/33d0fbf8-0efe-477c-95e1-bf7af14057cf" />
 
     Contoh sebelum modifikasi:
-
+    ```bash
     {"ProductId":1,"Quantity":1}
-
+    ```
     Contoh setelah modifikasi:
-
+    ```bash
     {"ProductId":10,"Quantity":1}
-
+    ```
+    
 2. **Verifikasi di Keranjang**
 
     Setelah mengirimkan request yang dimodifikasi, buka halaman keranjang belanja. Produk “Christmas Special” sekarang muncul dan berhasil ditambahkan.
