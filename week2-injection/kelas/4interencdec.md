@@ -26,10 +26,6 @@ File enc_flag berisi:
 
 <img width="661" height="59" alt="cat" src="https://github.com/user-attachments/assets/a793d776-cbdd-4fef-acf9-9db66e5fca0d" />
 
-```bash
-YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclh6ZzJhMnd6TW1zeWZRPT0nCg==
-```
-
 Akhiran = menunjukkan ini kemungkinan Base64.
 
 2. **Base64 Decode Pertama**
@@ -40,12 +36,6 @@ cat enc_flag | base64 -d
 
 <img width="860" height="74" alt="base64d" src="https://github.com/user-attachments/assets/41a890f3-833d-4f44-8c62-475787b9805f" />
 
-Output:
-
-```bash
-b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg2a2wzMmsyfQ=='
-```
-
 Masih berupa string Python bytes yang berisi Base64 lagi.
 
 3. **Base64 Decode Kedua**
@@ -55,12 +45,6 @@ echo "d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg2a2wzMmsyfQ==" | base64 -d
 ```
 
 <img width="948" height="82" alt="echo" src="https://github.com/user-attachments/assets/540e69e4-ba6d-4f70-b48f-2d607d031203" />
-
-Output:
-
-```bash
-wpjvJAM{jhlzhy_k3jy9wa3k_86kl32k2}
-```
 
 Sekarang terlihat seperti teks dengan cipher rotasi (Caesar/ROT-N).
 
@@ -92,7 +76,7 @@ for i in range(1, alpha_len+1):
         print("ROT-%02d: %s" % (i, plain))
 ```
 
-<img width="958" height="935" alt="python" src="https://github.com/user-attachments/assets/d07cecbf-f3fe-46b3-a8e6-14228b399a96" />
+<img width="1920" height="945" alt="python" src="https://github.com/user-attachments/assets/7bc41284-a54b-4dcb-8980-8ff2206f1b34" />
 
 Output:
 
@@ -100,6 +84,6 @@ Output:
 ROT-19: picoCTF{<REDACTED>}
 ```
 
-<img width="920" height="116" alt="VirtualBox_veru_25_09_2025_01_22_47" src="https://github.com/user-attachments/assets/2744c0af-ffea-4b41-b141-2970de465bac" />
+<img width="485" height="70" alt="hasil1" src="https://github.com/user-attachments/assets/7b4ca485-4b11-40e2-af8c-d7ec9acc43a2" />
 
 Diketahui rotasi yang dipakai adalah ROT-19.
