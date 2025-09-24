@@ -3,6 +3,7 @@
 ## Overview
 
 Judul: Nested Easter Egg
+
 Kategori: Cryptographic Issues
 
 Tantangan “Nested Easter Egg” meminta kita untuk mendekripsi pesan tersembunyi yang berada di dalam Easter egg lain, menekankan analisis kriptografi tingkat lanjut untuk menemukan Easter egg yang sebenarnya dalam aplikasi.
